@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           
+        body{
+            background:
+            linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+            linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+            linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+            linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+            linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+            linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+            background-color: #131313;
+            background-size: 20px 20px; 
+            }
+        .encabezado{
+			background-color:black;
+            background-image:
+            radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+            radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+            radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+            radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+            background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+            background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+			text-align: center;
+			padding: 50px;
+            box-shadow: 0 0 50px;
+		
+		}
+		.titulo,h1,h2{
+			color: darkorchid;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+		.boton{
+			margin-right: 20px;
+			margin-left: 20px;
+			background: linear-gradient(blue, pink);
+		transition-duration: 2s;		
+			border-radius: 10px;
+			border-style: unset;}
+		.boton:hover{
+			scale:2;
+			background: linear-gradient(pink,blue);
+			box-shadow: 0 0 10 white;
+		}
+        .imag{
+            margin: 20px 0 10px 0;
+            width: auto;
+            height: 360px;
+            float: left;
+        }
+        h2{padding: 10px 0 10px 0;}
+        .caja2{
+            height: auto;
+        
+            background: black;
+            opacity: 50%;
+        }
+        h2{text-align: center;}
+        h3,h4{
+            color: white;
+            position: relative;
+            left: 20px;
+        }
+        p{color: antiquewhite;
+        position: relative;
+        left: 20px;}
+        .video{
+            position: relative;
+            text-align: center;
+            height: auto;
+            z-index: 100;
+        }
+        .peli{
+            position: relative;
+            padding: 20px 0 20px 0;
+        }
+        .fondovideo{
+            z-index: 1;
+            background: black;
+            opacity: 50%;
+            height: 470px;
+            position: relative;
+            top: -470px;
+        }
+        </style>
+    </head>
+    <body>
+        <header class="encabezado">
+            <h1 class="titulo">	Mirate Esta. </h1>
+            <a href="" ><button class="boton">Inicio</button></a>
+            <a href="" ><button class="boton">Peliculas</button></a>
+            <a href="" ><button class="boton">Series</button></a>
+        </header>
+        <article>
+            <div class="cajasuperior">
+                <img src="DERTODESKING.jpg" class="imag">
+                
+                <div class="caja2">
+                    <h2>DER TODES KING.</h2>
+                    <h4>SINOPSIS:</h4>
+                    <p><br></p>
+                    <h4>GÉNEROS</h4>
+                    <p>Horror</p>
+                    <h4>DURACIÓN</h4>
+                    <p>1h 15min</p>
+                    <h4>PAÍS DE PRODUCCIÓN</h4>
+                    <p>Alemania</p>
+                    <h3>DIRECTOR:</h3>
+                    <p>Jorg Buttgereit.</p>
+                </div>
+            </div>
+        </article>
+        <section class="video">
+            <iframe width="1000" height="430" src="src="https://archive.org/embed/der.-todesking.-1990.-german.-1080p.-blu-ray.-h-264.-aac-vxt/Der.Todesking.1990.GERMAN.1080p.BluRay.H264.AAC-VXT.mp4"
+		title="DER TODES KING." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="peli"></iframe> 
+	
+        </section>
+        <section class="fondovideo"></section>
+    </body>
+</html>
